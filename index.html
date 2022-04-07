@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Assignment</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check"/>
+        <label for="check" class="checkbtn">
+          <i class="fa fa-bars"></i>
+        </label>
+        <ul>
+            <li class="redbg" onclick="textChangeRedPage()"><a href="#">Red</a></li>
+            <li class="orangebg" onclick="textChangeOrangePage()"><a href="#">Orange</a></li>
+            <li class="purplebg" onclick="textChangePurplePage()"><a href="#">Purple</a></li>
+            <li class="greenbg" onclick="textChangeGreenPage()"><a href="#">Green</a></li>
+            <li class="whitebg" onclick="textChangeHomePage()"><a href="#">Home</a></li>
+        </ul>
+    </nav>
+    
+    <p id="changetxt">Click on the menu to change the background color!
+    <br>(or press 1, 2, 3, or 4)
+    </p>
+
+</body>
+
+<script src="index.js?speed=2"></script>
+</html>
